@@ -3,4 +3,4 @@ function calcularAreaRetangulo(){
     var comprimento = document.getElementById("comprimento").value
     var resultado = largura * comprimento;
     alert(resultado);
-}teste
+}
