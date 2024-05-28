@@ -1,8 +1,17 @@
-function validarNumeroPositivo(){
+function verificarPositivoOuNegativo() {
+
     var numero = document.getElementById("numero").value
+
     if (numero > 0){
-        alert ("Seu número é positivo")
-    }else(numero < 0){
-        alert ("Insira um número valido")
-    }    
-}        
+        alert("positivo");
+
+    }else if(numero < 0){
+        alert("negativo");
+        
+    }else{
+        alert("zero");
+    }
+}
+
+
+        
